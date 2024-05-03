@@ -1,0 +1,78 @@
+.info-panel-container {
+  .ant-row {
+    margin-top: 42px;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #140a2b;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #8a8595;
+    margin-bottom: 10px;
+  }
+}
+
+.info-form-container {
+  .ant-select-selector {
+    border-radius: 12px;
+    height: 55px !important;
+  }
+  .infoInput {
+    border: 1px solid rgba(138, 133, 149, 0.1);
+    background: #fff;
+    border-radius: 12px;
+    height: 52px;
+    // max-width: 210px;
+    width: 100%;
+    border-radius: 12px;
+    padding-top: 15px;
+    padding-left: 19px;
+    font-weight: 700;
+    color: #140a2b;
+
+    &:hover,
+    &:focus {
+      border: 1px solid #5b2cd3 !important;
+    }
+  }
+   .infoInputDisabled {
+    border: 1px solid rgba(138, 133, 149, 0.1);
+    background: rgba(138, 133, 149, 0.1);
+    border-radius: 12px;
+    height: 52px;
+    // max-width: 210px;
+    width: 100%;
+    border-radius: 12px;
+    padding-top: 15px;
+    padding-left: 19px;
+    font-weight: 700;
+    color: #140a2b;
+
+    &:hover,
+    &:focus {
+      border: 1px solid #2B48F4 !important;
+    }
+  }
+
+  .ant-row {
+    margin-top: 10px;
+  }
+
+  .label {
+  }
+
+  .as-placeholder {
+    left: 20px;
+    top: 14px;
+  }
+
+  .as-label {
+    top: 6px;
+    left: 2px;
+  }
+}

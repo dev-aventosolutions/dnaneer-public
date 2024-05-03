@@ -1,0 +1,44 @@
+.appRadioGroup {
+  display: flex;
+  // align-items: center;
+  // justify-content: space-between;
+  // margin-top: 10px;
+  .appRadioBtn {
+    border: 1px solid #dcdde5;
+    border-radius: 43px;
+    width:50%;
+    height: 55px;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: transparent;
+    color: #8a8595;
+    margin-right: 9px;
+    padding: 0px !important;
+    &::before {
+      display: none;
+    }
+  }
+  :where(
+      .css-dev-only-do-not-override-2cufig
+    ).ant-radio-button-wrapper-checked:not(
+      .ant-radio-button-wrapper-disabled
+    ):first-child {
+    border-color: #4b5563;
+  }
+  .ant-radio-button-wrapper-checked {
+    background: #5b2cd3;
+    color: #ffffff;
+    border: 1px solid #5b2cd3;
+    outline: none;
+    box-shadow: none;
+
+    &:hover {
+      border-color: #5b2cd3;
+      color: #ffffff;
+    }
+  }
+}

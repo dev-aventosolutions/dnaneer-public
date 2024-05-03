@@ -1,0 +1,25 @@
+.createApp-Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #5B2CD3;
+    border-radius: 58px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffff;
+    border: none;
+    outline: none;
+    // margin-top: -5px;
+    // &:hover{
+    // color: #000000 !important;
+    // }
+    // &:active,&:focus, &:focus-visible{
+    //     box-shadow: none !important;
+    //     color: #000000 !important;
+    //     outline: none !important;
+    // }
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+    display: none !important;
+}

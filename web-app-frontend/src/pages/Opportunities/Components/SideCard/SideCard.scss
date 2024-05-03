@@ -1,0 +1,30 @@
+.sideCard-container {
+    // margin: 0 0 0 auto;
+    padding: 14px;
+    background-image: url("/assets/images/walletBG.png") !important;
+        background-size: cover !important;
+            background-position: center;
+    border-radius: 20px;
+    // width: 100%;
+    // max-width: 300px;
+
+    .transfer-card-btn {
+        background: #fff;
+        font-weight: 500;
+        width: 100%;
+        margin-top: 10px;
+        height: 42px;
+        color: #140A2B;
+        border: 1px solid rgba(138, 133, 149, 0.2);      
+            filter: drop-shadow(4px 11px 12px rgba(0, 0, 0, 0.1));
+            border-radius: 30px;
+        &:hover, &:active, &:focus{
+            color: #140A2B !important;
+            border: 1px solid rgba(138, 133, 149, 0.2) !important;
+        }
+    }
+}
+
+.sideCardO {
+    background-image: url("/assets/images/WalletBGO.png") !important;
+}

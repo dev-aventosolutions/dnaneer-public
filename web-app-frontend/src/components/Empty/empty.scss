@@ -1,0 +1,19 @@
+.empty-container{
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1{
+    margin-top: 40px;
+   font-weight: 700;
+    font-size: 16px;
+    color: #140A2B;
+    }
+    p{
+font-weight: 500;
+    font-size: 12px;
+    color: #8A8595;
+    }
+}

@@ -1,0 +1,196 @@
+.account-panel-container {
+    .account-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 23px 34px;
+        background-image: url("/assets/images/1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        margin-top: 35px;
+
+        h1 {
+            font-weight: 700;
+            font-size: 18px;
+            color: #FFFFFF;
+            margin-bottom: 0px;
+
+        }
+
+        .upgrade-btn {
+            width: 122px;
+            height: 42px;
+            background: #ffff;
+            color: #5B2CD3;
+
+            &:hover, &:active,&:focus {
+                color: #5B2CD3 !important;
+            }
+        }
+                 
+    }
+    .vip-account-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 23px 34px;
+        background-image: url("/src/assets/images/vip.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        margin-top: 35px;
+
+        h1 {
+            font-weight: 700;
+            font-size: 18px;
+            color: #000000;
+            margin-bottom: 0px;
+
+        }
+
+        .upgrade-btn {
+            width: 122px;
+            height: 42px;
+            background: #ffff;
+            color: #5B2CD3;
+
+            &:hover, &:active,&:focus {
+                color: #5B2CD3 !important;
+            }
+        }
+                 
+    }
+    .account-info {
+        border: 1px solid rgba(138, 133, 149, 0.1);
+        padding: 22px 31px;
+        border-radius: 20px;
+        margin: 24px 0;
+        position: relative;
+        label{
+            color: #8A8595 !important;
+        }
+
+        .edit-profile-icon {
+            float: right;
+            cursor: pointer;
+
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 16px;
+            color: #140A2B;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 16px;
+            color: #8A8595;
+            margin-bottom: 10px;
+        }
+                .document-view-container {
+                    border: 1px solid #dcdde5;
+                    background: rgba(217, 217, 217,0.2);
+                    border-radius: 12px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 13px;
+        
+                    svg {
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+    }
+
+    .deactivate-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 23px 34px;
+        border-radius: 20px;
+        margin-top: 35px;
+        border: 1px solid rgba(138, 133, 149, 0.1);
+        p {
+            font-size: 16px;
+            margin-bottom: 0px;
+            color: #8A8595;
+
+        }
+        .deactivate-btn {
+            width: 122px;
+            height: 42px;
+            background: #ffff;
+            border: 1px solid #ED615C;
+            border-radius: 56px;
+            color: #ED615C;
+
+            &:hover, &:active, &:focus {
+                color: #ED615C !important;
+            }
+        }
+    }
+
+    .account-form-container {
+        .ant-input-password {
+            background: #fff;
+            height: 46px;
+            border: 1px solid rgba(138, 133, 149, 0.1);
+            width: 302px;
+
+            input {
+                border: none !important;
+                height: auto !important;
+
+            }
+        }
+
+        input {
+            border: 1px solid rgba(138, 133, 149, 0.1);
+            background: #fff;
+            border-radius: 12px;
+            height: 46px;
+            width: 302px;
+            padding-left: 1rem !important;
+        }
+
+        .submit-col {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            .account-submit {
+                background: rgba(229, 234, 251, 0.1);
+                border: 1px solid #5B2CD3;
+                border-radius: 50px;
+                width: 109px;
+                height: 38px;
+                font-size: 14px;
+                color: #5B2CD3;
+                margin-bottom: 0px;
+
+                &:focus,
+                &:hover {
+                    color: #5B2CD3 !important;
+                }
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 500;
+                color: #140A2B;
+                margin-right: 33px;
+                margin-bottom: 16px;
+                cursor: pointer;
+
+            }
+        }
+
+    }
+}

@@ -1,0 +1,28 @@
+.step-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    font-size: 12px;
+    flex-direction: column;
+    //   margin-top: -13px;
+    //   margin-left: 2rem;
+    color: #000;
+}
+
+.step-title>span:nth-child(2) {
+    margin-top: -16px;
+}
+
+.ant-steps-item-icon {
+    margin-inline-start: 0 !important;
+}
+
+.ant-steps-item-tail {
+    margin-inline-start: 15px !important;
+}
+
+.ant-steps-item-content {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    text-align: start !important;
+}

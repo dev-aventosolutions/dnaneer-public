@@ -1,0 +1,142 @@
+.step-heading {
+  //   font-family: "Typo Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #140a2b;
+  margin: 0;
+}
+
+.iframe-wrapper {
+  border: none;
+  border-radius: 20px;
+  height: 441px;
+  // padding: 10px;
+  // overflow-y: auto;
+  iframe {
+    border: 1px solid #c4c1ca;
+    border-radius: 20px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    // padding: 10px;
+    // min-height: 300px;
+  }
+}
+
+.agreement-radio {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  /* identical to box height, or 158% */
+
+  /* Dark Purple */
+  margin: 2px 0 43px 0;
+  color: #140a2b;
+}
+
+.drawer-final-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  margin-top: 20px;
+  .skip {
+    font-weight: 500;
+    font-size: 14px;
+    color: #4e4760;
+    align-self: center;
+    margin-bottom: 0;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .previous {
+    font-weight: 500;
+    font-size: 14px;
+    color: #4e4760;
+    margin-bottom: 0;
+    align-self: center;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .complete-btn {
+    align-self: center;
+    background: #5b2cd3;
+    border-radius: 58px;
+    width: 156px;
+    height: 55px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    border-color: #5b2cd3;
+  }
+}
+.uploaed-file-wrapper {
+  margin: 24px 0;
+}
+
+.uploaded-file-container {
+  background: rgba(91, 44, 211, 0.05);
+  border-radius: 95px;
+  display: grid;
+  grid-template-columns: 20fr 1fr;
+  padding: 11.5px 15px;
+  .delete-file {
+    justify-self: center;
+    align-self: center;
+
+    background: rgb(237 97 92 / 10%);
+    /* opacity: 0.1; */
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    color: #ed615c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 29px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .uploaded-file-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+    span {
+      margin-left: 10px;
+    }
+  }
+}
+.absher-otp-wrapper {
+  padding: 17px 2px;
+}
+.absher-otp-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  input {
+    height: 50px;
+    margin-right: 14px;
+    border-radius: 12px;
+    border: 1px solid #dcdde5;
+    font-weight: 700;
+    &:focus {
+      border-color: #0d99ff;
+      outline: #0d99ff;
+    }
+  }
+}
+.absher-header {
+  background-color: #140a2b;
+  color: #ffffff;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 700px;
+}

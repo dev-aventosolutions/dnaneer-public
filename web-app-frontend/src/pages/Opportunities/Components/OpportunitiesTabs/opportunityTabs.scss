@@ -1,0 +1,26 @@
+.oppertunity-tabs {
+  .oppertunity-filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .ant-input-affix-wrapper {
+      background: rgba(196, 193, 202, 0.15);
+      border-radius: 32px;
+      width: 446px;
+      height: 46px;
+      border-color: transparent;
+      padding-left: 19px;
+      margin-right: 2rem;
+    }
+
+    input {
+      background: transparent !important;
+
+      &::placeholder {
+        font-weight: 500;
+        font-size: 14px;
+        color: #8a8595;
+      }
+    }
+  }
+}

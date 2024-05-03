@@ -1,0 +1,165 @@
+.borrower-menu {
+    .ant-menu-item-selected {
+        &::before {
+            background: linear-gradient(297.81deg, #2B48F4 0%, #2B48F4 100%) !important;
+        }
+
+        svg {
+            path {
+                fill: #2B48F4 !important;
+            }
+        }
+
+        span {
+            background: linear-gradient(270deg, #2B48F4 0%, #2B48F4 100%) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+        }
+    }
+}
+
+.borrower-header {
+    .header-col-two {
+        .ant-avatar {
+            background: linear-gradient(white, white) padding-box, linear-gradient(to right, #D87C5D 0%,
+                    #ACD4B1 42.55%,
+                    #BBBE72 77.97%,
+                    #6D14E4 100%) border-box !important;
+        }
+    }
+}
+
+.borrower-greeting {
+    .ant-avatar {
+        background: linear-gradient(white, white) padding-box, linear-gradient(to right, #D87C5D 0%,
+                #ACD4B1 42.55%,
+                #BBBE72 77.97%,
+                #6D14E4 100%) border-box !important;
+    }
+
+    .role {
+        background: linear-gradient(to right, #edf6fe, #ededfc) border-box;
+        width: 80px !important;
+
+        span {
+            background: linear-gradient(270deg, #2B48F4 0%, #34A5FF 100%);
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+        }
+    }
+}
+
+.borrower-dashboardCards {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    .borrower-card {
+        max-height: 155px;
+
+        .ant-card-body {
+            padding: 0px !important;
+            border-radius: 20px;
+        }
+
+        background: #FFFFFF;
+        box-shadow: 0px 40px 60px rgba(30, 23, 61, 0.08);
+        border: none !important;
+
+        h1 {
+            font-weight: 500;
+            font-size: 16px;
+            color: #FFFFFF;
+            height: 73px;
+            border-radius: 20px 20px 0px 0px;
+            padding: 24px;
+        }
+
+        h2 {
+            font-weight: 500;
+            font-size: 26px;
+            color: #140A2B;
+            padding: 10px 0px 26px 24px;
+
+        }
+    }
+    .card-one {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h1 {
+            padding: 0px;
+            font-weight: 700;
+            font-size: 38px;
+            color: #2B48F4;
+
+            padding: 0px 0 0 31px;
+        }
+
+        h2 {
+            padding: 0px;
+            font-weight: 500;
+            font-size: 16px;
+            margin-bottom: 0px;
+            padding: 31px 0 0 31px;
+            color: #140A2B;
+        }
+    }
+    .card-two {
+        h1 {
+            background: #2B48F4;
+        }
+    }
+    .card-three {
+        h1 {
+            background: #73DCFA;
+        }
+    }
+    .card-four {
+        h1 {
+            background: #2BDAAE;
+        }
+    }
+}
+
+.borrower-sideCard{
+   background-image: url("/assets//images/Rectangle.png") !important;
+    padding: 14px;
+        background-size: cover !important;
+        background-position: center;
+        border-radius: 20px;
+}
+
+.capital-card{
+    margin-top: 7rem;
+    background-image: url("/assets//images/saudi.png") !important;
+        background-size: cover !important;
+        background-position: center;
+        border-radius: 20px;
+        height: 325px;
+        margin-bottom: 120px;
+        display: flex;
+            align-items: flex-end;
+            padding: 33px;
+            .ant-card-body{
+                padding: 0px;
+            }
+            h1{
+                font-weight: 700;
+                    font-size: 32px;
+                    line-height: 38px;                
+                    color: #FFFFFF;
+            }
+            .loan-btn{
+                background: rgba(255, 255, 255, 0.1);
+                    backdrop-filter: blur(4.5px);
+                 width: 166px;
+                 height: 42px;
+                    border-radius: 30px;
+                    font-size: 12px;            
+                        color: #FFFFFF;
+            }
+}
+
+.borrower-installments{
+    
+}

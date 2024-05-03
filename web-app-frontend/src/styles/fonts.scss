@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Typo';
+  font-weight: 700;
+  font-style: normal;
+  // src: local("TypoBold") url("/public/assets/fonts/TypoBold.ttf") format("truetype");
+  src: url('/src/assets/fonts/TypoBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Typo';
+  font-weight: 800;
+  font-style: normal;
+  src: url("/src/assets/fonts/TypoExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Typo';
+  font-weight: 400;
+  font-style: normal;
+  src:  url("/src/assets/fonts/TypoLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Typo';
+  font-weight: 500;
+  font-style: normal;
+  src:  url("/src/assets/fonts/TypoSemi.ttf") format("truetype");
+}
+
+// @font-face {
+//   font-family: 'Typo';
+//   font-weight: 700;
+//   font-style: normal;
+//   // src: local("TypoBold") url("/public/assets/fonts/TypoBold.ttf") format("truetype");
+//   src: url('/src/assets/fonts/TypoBlack.ttf') format('truetype');
+// }

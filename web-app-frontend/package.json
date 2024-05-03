@@ -1,0 +1,48 @@
+{
+  "name": "dnaneer-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "antd": "^5.3.2",
+    "axios": "^1.3.4",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.9",
+    "i18next": "^22.4.13",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "i18next-http-backend": "^2.2.0",
+    "i18next-xhr-backend": "^3.2.2",
+    "js-cookie": "^3.0.1",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.2.0",
+    "react-image-file-resizer": "^0.4.8",
+    "react-otp-input": "^3.0.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.10.0",
+    "recoil": "^0.7.7",
+    "redux-saga": "^1.2.3",
+    "unplugin-fonts": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.3",
+    "@types/node-sass": "^4.11.3",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "node-sass": "^8.0.0",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0",
+    "vite-plugin-svgr": "^2.4.0",
+    "vite-tsconfig-paths": "^4.0.7"
+  }
+}

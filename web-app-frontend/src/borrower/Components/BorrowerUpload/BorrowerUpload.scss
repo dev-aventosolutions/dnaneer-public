@@ -1,0 +1,65 @@
+.upload-container {
+  margin-bottom: 20px;
+  .ant-upload-btn {
+    padding: 14.1px 0 !important;
+    border: none !important;
+    border: 1px dashed #2b48f4 !important;
+    //     border-radius: 95px !important;
+  }
+
+  .ant-upload {
+    //    height: 81px !important;
+    background: transparent !important;
+    border: none;
+    //  border: 1px dashed #2B48F4 !important;
+    border-radius: 95px !important;
+    width: 100% !important;
+
+    span {
+      // border: none !important;
+    }
+  }
+
+  .import {
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    color: #8a8595;
+    margin-bottom: 0 !important;
+  }
+
+  .browse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #2b48f4;
+    margin-bottom: 0 !important;
+
+    svg {
+      margin-right: 8px;
+    }
+  }
+
+  .upload-file-container {
+    margin-top: 24px;
+    // position: relative;
+    height: 55px;
+    background: rgba(91, 44, 211, 0.05);
+    border-radius: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+}
+.upload-file-container h2 {
+  font-size: 14px;
+  color: #140a2b;
+  margin: 0;
+  margin-left: 10px;
+}

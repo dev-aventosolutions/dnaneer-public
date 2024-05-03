@@ -1,0 +1,17 @@
+.document-view-container {
+  border: 1px solid #dcdde5;
+  background: rgba(217, 217, 217, 0.2);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  width: 300px;
+
+  svg {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.card-wrapper {
+  // padding: 10px;
+  .ant-card-body {
+    padding: 0 !important;
+  }
+  .sqaure-card-content {
+    .title {
+      // background: #2b48f4;
+      border-radius: 20px 20px 0px 0px;
+      padding: 24px 0 25px 28px;
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    .value {
+      padding: 17px 0 26px 28px;
+      color: #140a2b;
+      font-weight: 500;
+      font-size: 26px;
+    }
+  }
+
+  .rectangle-right {
+    background-image: url("../../../assets//images/Rectangle.png");
+    // background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    // background-image: url("../../../assets//images/Rectangle.png");
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    height: 100%;
+    padding: 54px;
+    border-radius: 0 20px 20px 0;
+  }
+  .rectangle-card-content {
+    display: grid;
+    padding-left: 25px;
+    height: 100%;
+    .title {
+      color: #140a2b;
+      align-self: flex-end;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    .value {
+      color: #2b48f4;
+      font-weight: 700;
+      font-size: 38px;
+    }
+  }
+}

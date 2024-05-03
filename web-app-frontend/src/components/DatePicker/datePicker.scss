@@ -1,0 +1,27 @@
+.ant-picker-input {
+  flex-direction: row-reverse;
+
+  .ant-picker-suffix {
+    padding-left: 7px !important;
+  }
+
+  input {
+    font-weight: 600;
+    font-size: 14px;
+    color: #171717;
+    padding-left: 13px !important;
+    padding-top: 20px !important;
+  }
+
+  svg {
+    fill: #140a2b;
+  }
+}
+
+.ant-picker-cell-inner {
+  background: #fff !important;
+}
+
+.ant-picker-date-panel {
+  background: #fff !important;
+}

@@ -1,0 +1,357 @@
+// @mixin card-sub-heading {
+//     font-weight: 700;
+//     font-size: 12px;
+//     letter-spacing: 6px;
+//     color: #32C5FF;
+// }
+
+// @mixin card-heading {
+//     font-weight: 600;
+//     font-size: 29.4344px;
+//     line-height: 36px;
+//     color: #FFFFFF;
+// }
+
+// @mixin card-info {
+//     font-weight: 400;
+//     font-size: 14px;
+//     color: #FFFFFF;
+//     line-height: 22px;
+// }
+
+// @mixin card-headingTwo {
+//     font-weight: 700;
+//     font-size: 22px;
+//     color: #FFFFFF;
+// }
+
+// @mixin cardName {
+//     font-weight: 700;
+//     font-size: 14px;
+//     color: #FFFFFF;
+//     margin-top: 29px;
+// }
+
+// @mixin cardTitle {
+//     font-weight: 400;
+//     font-size: 12px;
+//     color: #FFFFFF;
+// }
+
+// @mixin cardInfo {
+//     font-weight: 400;
+//     font-size: 16px;
+//     color: #FFFFFF;
+// }
+
+
+.auth-container{
+   min-height: 100vh;
+  .auth-col-one{
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        flex-direction: column;
+    .login-img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .profits{
+      position: relative;
+    }
+    .networks{
+     position: relative;
+    }
+    .copyright-two{
+      display: none;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+    .description{
+      position: relative;
+      margin-top: 40px;
+      h1{
+font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+      }
+      p{
+font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.5px;
+      }
+    }
+  }
+  .auth-col-two{
+    height: auto;
+      min-height: 100vh;
+  
+  }
+}
+
+
+
+
+
+
+// .auth-container {
+//     .auth-col-one {
+//         background: #4B5563;
+//         border-radius: 0px 30px 0px 0px;
+
+//         .logo2 {
+//             position: absolute;
+//             top: 36px;
+//             left: 41px;
+//             z-index: 2;
+
+//         }
+
+//         .arrow-down-icon {
+//             width: 60px;
+//             height: 60px;
+//             position: absolute;
+//             top: -30%;
+//             left: -1%;
+//         }
+
+//         .card-one-container {
+//             position: relative;
+//             margin-left: 127px;
+
+//             .active-buttons {
+//                 display: flex;
+//                 align-items: center;
+//                 flex-direction: column;
+//                 height: 73px;
+//                 justify-content: space-between;
+//                 position: absolute;
+//                 right: 26px;
+//                 bottom: 0%;
+
+//                 .sm-btn {
+//                     width: 8px;
+//                     height: 8px;
+//                     opacity: 0.1;
+//                     background: #FFFFFF;
+//                     border-radius: 50%;
+//                     cursor: pointer;
+//                 }
+
+//                 .active-sm-btn {
+//                     background: #FFFFFF;
+//                     opacity: 1;
+//                 }
+//             }
+
+//             .card-one-img {
+//                 margin-top: 2px;
+//                 margin-left: -10px;
+//             }
+
+//             .card-one-content {
+//                 position: absolute;
+//                 top: 60%;
+//                 left: 7%;
+
+//                 h4 {
+//                     @include card-sub-heading;
+//                     width: 553px;
+//                     margin-bottom: 16px;
+//                 }
+
+//                 h1 {
+//                     @include card-heading;
+//                     width: 553px;
+//                 }
+
+//                 p {
+//                     @include card-info;
+//                     width: 454px;
+//                     margin-left: 15%;
+//                 }
+//             }
+//         }
+
+//         .card-two-container {
+//             position: relative;
+//             margin-left: 127px;
+//             margin-top: 395px;
+
+//             .card-two-img-container {
+//                 position: relative;
+
+//                 .card-two-img {
+//                     margin-left: 40%;
+//                 }
+
+//                 h1 {
+//                     width: 296px;
+//                     position: absolute;
+//                     top: 30%;
+//                     left: 31%;
+//                     @include card-heading;
+
+//                 }
+//             }
+
+//             .card-two-content {
+//                 position: absolute;
+//                 bottom: -45%;
+//                 left: 0%;
+
+//                 h4 {
+//                     @include card-sub-heading;
+//                     // width: 553px;
+//                     margin-bottom: 19px;
+//                 }
+
+//                 h2 {
+//                     @include card-headingTwo;
+//                     margin-bottom: 17px;
+//                     // width: 553px;
+//                 }
+
+//                 p {
+//                     @include card-info;
+//                     width: 296px;
+//                     // margin-left: 15%;
+//                 }
+//             }
+//         }
+
+//         .cards-container {
+//             margin-top: 331px;
+//             display: flex;
+//             margin-left: 127px;
+
+//             .card-three-container {
+//                 display: flex;
+//                 flex-direction: column;
+//                 margin-left: 65px;
+
+//                 .card-three-img {}
+
+//                 b {
+//                     @include cardName;
+//                     margin-top: 24px;
+//                     margin-left: 29px;
+//                 }
+
+//                 span {
+
+//                     @include cardTitle;
+//                     margin-left: 29px;
+//                 }
+
+//                 p {
+//                     line-height: 22px;
+//                     width: 244px;
+//                     margin-left: 29px;
+//                     margin-top: 15px;
+//                     @include cardInfo;
+//                 }
+//             }
+
+//             .card-four-container {
+//                 .card-four-content {
+//                     margin-top: 23%;
+//                     display: flex;
+//                     flex-direction: column;
+
+//                     h4 {
+//                         @include card-sub-heading;
+//                     }
+
+//                     h1 {
+//                         font-weight: 700;
+//                         font-size: 29px;
+//                         color: #FFFFFF;
+//                         width: 330px;
+//                         line-height: 34px;
+//                     }
+
+//                     .card-four-img {
+//                         width: 297px;
+//                         height: 382px;
+//                         margin-top: 20%;
+//                     }
+
+//                     b {
+//                         @include cardName;
+//                         margin-top: 23px;
+//                         margin-left: 29px;
+//                     }
+
+//                     span {
+//                         @include cardTitle;
+//                         margin-left: 29px;
+//                     }
+
+//                     p {
+//                         line-height: 22px;
+//                         width: 244px;
+//                         margin-left: 29px;
+//                         margin-top: 15px;
+//                         @include cardInfo;
+//                     }
+//                 }
+//             }
+//         }
+
+//         .copyright {
+//             margin-top: 267px;
+//             margin-left: 48px;
+//             padding-bottom: 51px;
+
+//             p {
+//                 font-weight: 400;
+//                 font-size: 12px;
+//                 color: #FFFFFF;
+//                 margin-bottom: 0;
+//             }
+//         }
+//     }
+
+//     .auth-col-two {
+//         position: relative;
+//         min-height: 100vh;
+  
+//         .auth-fixed-wrapper {
+//          width: 360px;
+//          position: fixed;
+//         top: 50%;
+//         right: 0%;
+//         margin-top: -180px;
+//         margin-right: 180px;
+//         }
+//     }
+
+//     .login-form-container {
+//         width: 100%;
+//         h1 {
+//             font-family: 'Inter';
+//             font-weight: 700;
+//             font-size: 22px;
+//             color: #171717;
+//         }
+
+//         .forgot {
+//             font-weight: 400;
+//             font-size: 12px;
+//             text-align: center;
+//             color: #333333;
+//         }
+
+      
+//     }
+// }
+
+

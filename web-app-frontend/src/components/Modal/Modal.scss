@@ -1,0 +1,293 @@
+.ant-modal-close {
+  top: 27px !important;
+  right: 34px !important;
+  color: #fff;
+}
+
+.ant-modal-body {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px !important;
+}
+
+.ant-modal {
+  padding: 81px 47px 67px 47px !important;
+  background: #140a2b;
+  border-radius: 40px;
+}
+
+.ant-modal-content {
+  position: unset !important;
+  background: transparent !important;
+  padding: 0px !important;
+}
+
+.ant-modal-close-x {
+  // display: none !important;
+  color: #fff;
+}
+
+.deactivate-modal {
+  .icon {
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #140a2b;
+    margin-bottom: 20px;
+    margin-top: 52px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .deactivate-otp-container {
+    width: 216.52px;
+
+    input {
+      width: 45px !important;
+      height: 45px !important;
+    }
+  }
+
+  .timer {
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #ed615c;
+    margin: 15px 0 0 0;
+
+    span {
+      color: #8a8595;
+    }
+  }
+
+  .confirm-deactivate-btn {
+    margin-top: 63px;
+    background: #ed615c;
+    border-radius: 113px;
+    height: 52px;
+  }
+
+  .cancel {
+    margin-top: 20px;
+    //  font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #8a8595;
+    cursor: pointer;
+  }
+}
+
+.logout-modal {
+  .log-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 75px;
+      object-fit: cover;
+    }
+  }
+
+  .contact-rows {
+    margin-top: 30px;
+    margin-left: 40px;
+    .contact-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+      width: 300px;
+
+      h2 {
+        width: 68px;
+        margin: 0;
+        font-weight: 700;
+        font-size: 14px;
+        color: #140a2b;
+      }
+
+      p {
+        margin: 0;
+        font-weight: 700;
+      }
+      span {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .close-btn {
+    margin-top: 39px;
+    background: #5b2cd3;
+    border-radius: 113px;
+    height: 52px;
+    margin-bottom: 25px;
+    color: #fff;
+  }
+
+  h1 {
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #140a2b;
+  }
+
+  .logout-btn {
+    margin-top: 59px;
+    border: 1px solid #c4c1ca;
+    border-radius: 113px;
+    height: 52px;
+    color: #ed615c;
+    font-weight: 500;
+    font-size: 12px;
+    background: transparent !important;
+
+    &:hover,
+    &:focus,
+    &:active {
+      border: 1px solid #c4c1ca !important;
+      color: #ed615c !important;
+    }
+  }
+
+  p {
+    margin-top: 25px;
+    //  font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #140a2b;
+    cursor: pointer;
+  }
+
+  .description {
+    margin: 0;
+    color: #8a8595;
+  }
+}
+
+.pdf-modal {
+  padding: 34px 41px 34px 41px !important;
+  background: #ffffff !important;
+  border-radius: 40px;
+  width: 60% !important;
+
+  .ant-modal-content {
+    box-shadow: none !important;
+  }
+
+  .ant-modal-body {
+    background: transparent !important;
+    border-radius: 0px !important;
+    padding: 0px !important;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+    color: #140a2b;
+    margin-top: 0px;
+  }
+}
+
+.vip-modal {
+  h1 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #140a2b;
+  }
+
+  p {
+    font-size: 12px;
+    color: #8a8595;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .sar {
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    opacity: 0.75;
+  }
+
+  .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 105px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .col-one {
+    background-image: url("/public/assets/images/upgrade\ VIP\ 1.png");
+  }
+
+  .col-two {
+    background-image: url("/public/assets/images/upgrade\ VIP\ 2.png");
+  }
+
+  .col-three {
+    background-image: url("/public/assets/images/upgrade\ VIP\ 3.png");
+    background-size: cover;
+  }
+
+  .criteria-container {
+    margin-top: 32px;
+    margin-bottom: 49px;
+
+    h1 {
+      font-weight: 700;
+      font-size: 16px;
+      color: #140a2b;
+    }
+
+    .ant-checkbox-group {
+      flex-direction: column;
+      align-items: baseline;
+    }
+
+    .ant-checkbox-group-item {
+      margin-top: 23px;
+    }
+
+    .ant-checkbox-inner {
+      border-radius: 4px !important;
+      background: #fff !important;
+      border: 1px solid #2b48f4;
+    }
+
+    .ant-checkbox-checked {
+      background: #2b48f4 !important;
+      border-radius: 4px !important;
+
+      .ant-checkbox-inner {
+        background: #2b48f4 !important;
+      }
+    }
+  }
+}
+

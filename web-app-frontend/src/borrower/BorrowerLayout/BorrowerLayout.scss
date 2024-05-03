@@ -1,0 +1,9 @@
+
+$primary-color: #2B48F4;
+
+.ant-tabs-tab-active {
+  .ant-tabs-tab-btn {
+    font-weight: 500 !important;
+    color: $primary-color !important;
+  }
+}

@@ -1,0 +1,338 @@
+$primary-color: #5b2cd3;
+$secondary-text: #c4c1ca;
+$heading-color: #140a2b;
+$primary-text: #8a8595;
+
+$small-font: 12px;
+
+.opportunity-container {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin: 0;
+  }
+
+  div {
+    font-weight: 500;
+  }
+
+  .secondary-text {
+    font-size: $small-font;
+    font-weight: 500;
+    color: $primary-text;
+  }
+
+  .large-heading {
+    color: $heading-color;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .medium-heading {
+    color: $heading-color;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .flex-column-start {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+
+    h2 {
+      margin-left: 10px;
+      margin-top: 2px;
+    }
+    .info-icon {
+      position: absolute;
+      top: 14px;
+      right: 105px;
+    }
+  }
+
+  margin: 1rem 84px 0 84px;
+
+  //   border: 1px solid #ccc;
+  .breadcrumb-container {
+    border-radius: 12px;
+    background: #ffffff;
+    padding: 8px 31px;
+    box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.08);
+
+    .go-back-option {
+      color: $primary-color;
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .current-page {
+      font-size: 14px;
+      font-weight: 500;
+      color: #c4c1ca;
+    }
+  }
+
+  .ant-breadcrumb-separator {
+    margin: 0 1rem;
+  }
+
+  .detail {
+    padding: 25px 31px 60px 31px;
+    border-radius: 12px;
+
+    .detail-header {
+      margin-bottom: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .detail-heading {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+
+        h1 {
+          margin: 0;
+          font-weight: 700;
+          font-size: 32px;
+          color: $heading-color;
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      .detail-time {
+        font-size: $small-font;
+        color: #4e4760;
+        margin-top: 8px;
+
+        line-height: 14px;
+      }
+    }
+
+    .main-detail-col1 {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+
+      svg {
+        width: 50px;
+        height: 50px;
+      }
+
+      .opportunity-code-container {
+        margin-left: 22px;
+
+        h3 {
+          margin-bottom: 4px;
+        }
+
+        h5 {
+          font-weight: 500;
+        }
+      }
+    }
+
+    .financing-element {
+      display: flex;
+      justify-content: flex-start;
+      align-items: start;
+      flex-direction: column;
+    }
+
+    .document-view-container {
+      border: 1px solid #dcdde5;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 13px;
+
+      svg {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .invest {
+    padding: 26px 20px 35px 20px;
+    border-radius: 12px;
+
+    .back-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 21px;
+      cursor: pointer;
+
+      p {
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: -0.03em;
+        color: #8a8595;
+        margin-bottom: 0px;
+        margin-left: 9px;
+      }
+    }
+
+    .net-roi {
+      font-size: 12px;
+      line-height: 14px;
+      color: #4e4760;
+      margin-top: 11px;
+    }
+
+    .invest-netPrice {
+      background: rgba(91, 44, 211, 0.1);
+      border-radius: 20px;
+      padding: 1rem 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 27px;
+
+      .net-unit {
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 5px;
+        font-weight: 700;
+        span {
+          font-size: 12px;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .large-heading {
+      font-weight: 700;
+      font-size: 18px;
+      background: linear-gradient(270deg, #2b48f4 0%, #34a5ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      display: inline-flex;
+    }
+
+    .invest-input {
+      margin: 23.8px 0;
+
+      .ant-input-affix-wrapper {
+        border: 1px solid #dcdde5;
+        padding: 11px 18px;
+        background-color: #fff;
+        border-radius: 36px;
+
+        input {
+          background-color: #fff;
+          color: $primary-color;
+        }
+
+        .ant-input-suffix {
+          font-size: 12px;
+          font-weight: 700;
+          //   padding;
+        }
+      }
+    }
+
+    .invest-text {
+      margin: 11px 14px;
+
+      p {
+        color: $primary-text;
+        font-size: 12px;
+        line-height: 14px;
+      }
+    }
+
+    .invest-net {
+      background: rgba(23, 184, 144, 0.1);
+      border-radius: 20px;
+      //   margin-left: 15px;
+      //   font-size: $small-font;
+      padding: 1rem 1rem;
+      color: #17b890;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+
+      //   height: 90px;
+      .net-unit {
+        color: #0fbe69;
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 5px;
+        font-weight: 700;
+        span {
+          font-size: 12px;
+        }
+      }
+
+      .net-text {
+        color: $heading-color;
+        font-weight: 500;
+        font-size: $small-font;
+      }
+    }
+  }
+
+  .details-card {
+    margin-top: 18px;
+    h1 {
+      font-weight: 700;
+      font-size: 16px;
+      color: #140a2b;
+    }
+    p {
+      font-weight: 500;
+      font-size: 12px;
+      margin-top: 28px;
+      margin-bottom: 0px;
+      color: #8a8595;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 14px;
+      color: #140a2b;
+    }
+  }
+}
+.errorMessage {
+  color: red;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+.statusCheck {
+  border-radius: 12px;
+  text-align: center;
+  background: rgb(252, 237, 237);
+  color: rgb(235, 85, 79);
+  padding: 8px 31px;
+  margin-bottom: 14px;
+  box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.08);
+}
+.statusCheck2 {
+  border-radius: 12px;
+  text-align: center;
+  background: rgb(246, 212, 111);
+  color: rgb(14, 14, 14);
+  padding: 8px 31px;
+  margin-bottom: 14px;
+  box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.08);
+}
