@@ -1,0 +1,28 @@
+%base-scroll {
+  &::-webkit-scrollbar {
+    max-width: 12px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #F3F3F3;
+    border-radius: 28px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #D9D9D9;
+    border-radius: 28px;
+    border: 2px solid #F3F3F3;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #888585;
+  }
+
+  /* Track on hover */
+  &::-webkit-scrollbar-track:hover {
+    // -webkit-box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  }
+}

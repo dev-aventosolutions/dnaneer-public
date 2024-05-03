@@ -1,0 +1,33 @@
+.transactions-container {
+    .status {
+        width: 98px;
+        height: 30px;
+        text-align: center;
+        border-radius: 50px;
+        font-weight: 500;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 0px;
+
+
+    }
+
+    .active-status {
+        background: rgba(23, 184, 144, 0.1);
+        color: #17B890;
+    }
+
+    .closed-status {
+        background: rgba(138, 133, 149, 0.1);
+        color: #8A8595;
+    }
+
+    .coming-status {
+        background: rgba(239, 139, 80, 0.1);
+
+        color: #EF8B50;
+    }
+}

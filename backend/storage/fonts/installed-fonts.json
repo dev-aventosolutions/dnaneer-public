@@ -1,0 +1,23 @@
+{
+    "noto naskh arabic": {
+        "normal": "noto_naskh_arabic_normal_27e7376dfeac03bdcbaf9a258a05cc8b"
+    },
+    "xbriyazbold": {
+        "bold": "xbriyazbold_bold_8bb3c7d905a10473cd7bba5a3d9bd5b4"
+    },
+    "xbriyazbolditalic": {
+        "bold_italic": "xbriyazbolditalic_bold_italic_1933d4987cfa60c8fe61626b3aecc67c"
+    },
+    "xbriyazitalic": {
+        "italic": "xbriyazitalic_italic_36449ad3cffd2134df66cc84e1fe8324"
+    },
+    "xbriyazregular": {
+        "normal": "xbriyazregular_normal_38232406e4dd6c0f5bd0cbc83929bd24"
+    },
+    "xb riyaz": {
+        "bold": "\/Users\/asifmasoodbutt\/Desktop\/Dnaneer\/dnaneer-backend\/storage\/fonts\/xb_riyaz_bold_8bb3c7d905a10473cd7bba5a3d9bd5b4",
+        "bold_italic": "\/Users\/asifmasoodbutt\/Desktop\/Dnaneer\/dnaneer-backend\/storage\/fonts\/xb_riyaz_bold_italic_1933d4987cfa60c8fe61626b3aecc67c",
+        "italic": "\/Users\/asifmasoodbutt\/Desktop\/Dnaneer\/dnaneer-backend\/storage\/fonts\/xb_riyaz_italic_36449ad3cffd2134df66cc84e1fe8324",
+        "normal": "xb_riyaz_normal_38232406e4dd6c0f5bd0cbc83929bd24"
+    }
+}

@@ -1,0 +1,48 @@
+.admin-users-container {
+    background: #F9F9FC;
+    border-radius: 20px;
+    padding: 29px 12px 29px 24px;
+    border: 1px solid #000;
+    h1{
+        margin: 0;
+        font-size: 16px;        
+            color: #242533;
+    }
+    .add-btn{
+            width: 135px;
+            height: 36.74px;
+            background: #6515DC;
+            margin: 21px 0px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+            border-radius: 20px;
+            font-weight: 700;
+            color: #fff;
+    }
+    .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-right: 7px;
+    }
+    .Admin-table-tag {
+        background: #CFDAFF;
+        border-radius: 16px;
+        padding: 2px 8px 2px 8px;
+        text-align: center;
+        height: 22px;
+        margin: 0 auto;
+        width: 105px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .dot {
+            background: #0D09EA;
+        }
+    }
+    .Super {
+        background: #FDF8EC;
+        .dot {
+            background: #ADBA14;
+        }
+    }
+}

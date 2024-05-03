@@ -1,0 +1,30 @@
+[23-May-2023 15:23:01 America/Chicago] PHP Warning:  require(/home2/dnaneersa/stagingapp.dnaneer.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php on line 34
+[23-May-2023 15:23:01 America/Chicago] PHP Warning:  require(/home2/dnaneersa/stagingapp.dnaneer.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php on line 34
+[23-May-2023 15:23:01 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dnaneersa/stagingapp.dnaneer.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php on line 34
+[23-May-2023 15:23:02 America/Chicago] PHP Warning:  require(/home2/dnaneersa/stagingapp.dnaneer.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php on line 34
+[23-May-2023 15:23:02 America/Chicago] PHP Warning:  require(/home2/dnaneersa/stagingapp.dnaneer.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php on line 34
+[23-May-2023 15:23:02 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dnaneersa/stagingapp.dnaneer.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php on line 34
+[23-May-2023 15:23:04 America/Chicago] PHP Warning:  require(/home2/dnaneersa/stagingapp.dnaneer.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php on line 34
+[23-May-2023 15:23:04 America/Chicago] PHP Warning:  require(/home2/dnaneersa/stagingapp.dnaneer.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php on line 34
+[23-May-2023 15:23:04 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dnaneersa/stagingapp.dnaneer.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php on line 34
+[23-May-2023 15:23:49 America/Chicago] PHP Warning:  require(/home2/dnaneersa/stagingapp.dnaneer.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php on line 34
+[23-May-2023 15:23:49 America/Chicago] PHP Warning:  require(/home2/dnaneersa/stagingapp.dnaneer.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php on line 34
+[23-May-2023 15:23:49 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dnaneersa/stagingapp.dnaneer.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php on line 34
+[23-May-2023 15:23:56 America/Chicago] PHP Warning:  require(/home2/dnaneersa/stagingapp.dnaneer.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php on line 34
+[23-May-2023 15:23:56 America/Chicago] PHP Warning:  require(/home2/dnaneersa/stagingapp.dnaneer.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php on line 34
+[23-May-2023 15:23:56 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dnaneersa/stagingapp.dnaneer.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/dnaneersa/stagingapp.dnaneer.com/public/index.php on line 34
