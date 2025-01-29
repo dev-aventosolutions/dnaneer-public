@@ -1,6 +1,6 @@
 # Dnaneer - A Leading Fintech Product
 
-![Dnaneer Logo](https://dnaneer.com/assets/images/header-logo.png) *(Replace with actual logo link)*
+![Dnaneer Logo](https://dnaneer.com/assets/images/header-logo.png)
 
 ## 📌 Overview
 Dnaneer is a cutting-edge fintech platform designed to bridge the gap between companies and investors. It empowers businesses to create investment opportunities while providing investors with a seamless way to fund and grow their portfolios.
