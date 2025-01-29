@@ -1,66 +1,55 @@
-# Dnaneer - A Leading Fintech Product
+Dnaneer - A Leading Fintech Product
 
-!(https://dnaneer.com/assets/images/header-logo.png)
+ (Replace with actual logo link)
 
-## 📌 Overview
+📌 Overview
+
 Dnaneer is a cutting-edge fintech platform designed to bridge the gap between companies and investors. It empowers businesses to create investment opportunities while providing investors with a seamless way to fund and grow their portfolios.
 
-## 🚀 Features
-- **Investment Opportunities** - Companies list funding opportunities with complete transparency.
-- **Secure Transactions** - Ensures safe and reliable investment transactions.
-- **User-Friendly Dashboard** - Intuitive UI for both investors and companies.
-- **Admin Portal** - Robust administrative controls for managing the platform.
+🚀 Features
 
-## 🛠️ Tech Stack
-- **Frontend:** React.js
-- **Backend:** PHP Laravel
-- **Admin Portal:** Next.js
-- **Database:** MySQL
+Investment Opportunities - Companies list funding opportunities with complete transparency.
 
-## 📅 Project Duration
-Development was completed in approximately **5-6 months**.
+Secure Transactions - Ensures safe and reliable investment transactions.
 
-## 📸 Screenshots
-*(Add your screenshots here by replacing the placeholder image links)*
+User-Friendly Dashboard - Intuitive UI for both investors and companies.
 
-![Screenshot 1](https://your-screenshot-url1.com)
-![Screenshot 2](https://your-screenshot-url2.com)
-![Screenshot 3](https://your-screenshot-url3.com)
+Admin Portal - Robust administrative controls for managing the platform.
 
-## 📦 Installation & Setup
-To run this project locally, follow these steps:
+🛠️ Tech Stack
 
-### 1. Clone the repository
-```sh
-git clone https://github.com/your-username/dnaneer.git
-cd dnaneer
-```
+Frontend: React.js
 
-### 2. Install dependencies
-```sh
-npm install   # For the frontend
-composer install   # For the backend
-```
+Backend: PHP Laravel
 
-### 3. Configure environment variables
-Create a `.env` file in the backend and frontend directories and set up the necessary environment variables.
+Admin Portal: Next.js
 
-### 4. Start the application
-```sh
-npm run dev   # For Next.js admin portal
-npm start     # For React.js frontend
-php artisan serve   # For Laravel backend
-```
+Database: MySQL
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to submit a pull request or open an issue.
+📅 Project Duration
 
-## 📜 License
-This project is licensed under the [MIT License](LICENSE).
+Development was completed in approximately 5-6 months.
 
-## 📧 Contact
-For inquiries, reach out via email at **your-email@example.com** or connect on [LinkedIn](https://linkedin.com/in/your-profile).
+📸 Screenshots
 
----
-*Made with ❤️ by [Your Name]*
+(Add your screenshots here by replacing the placeholder image links)
 
+
+
+
+
+🔗 Integrations
+
+Nafath API - Secure identity verification
+
+Arab National Bank API - Banking transactions
+
+Wathq API - Business data validation
+
+Unifonic OTP API - Secure one-time password authentication
+
+📧 Contact
+
+For inquiries, reach out via email at your-email@example.com or connect on LinkedIn.
+
+Made with ❤️ by [Your Name]
