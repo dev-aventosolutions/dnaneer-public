@@ -34,7 +34,7 @@ Development was completed in approximately **5-6 months**.
 - **Unifonic OTP API** - Secure one-time password authentication
 
 ## 📧 Contact
-For inquiries, reach out via email at **[abdul.samad@aventosolutions.com](mailto:abdul.samad@aventosolutions.com)** or connect on [LinkedIn](https://linkedin.com/in/your-profile).
+For inquiries, reach out via email at **[abd.butt007@gmail.com](mailto:abd.butt007@gmail.com)** or connect on [LinkedIn](https://www.linkedin.com/in/abdul-samad-b-301a24103/).
 
 ---
 Made with ❤️ by *Avento Solutions*
