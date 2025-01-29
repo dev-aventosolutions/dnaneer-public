@@ -37,5 +37,5 @@ Development was completed in approximately **5-6 months**.
 For inquiries, reach out via email at **[abdul.samad@aventosolutions.com](mailto:abdul.samad@aventosolutions.com)** or connect on [LinkedIn](https://linkedin.com/in/your-profile).
 
 ---
-*Made with ❤️ by *Avento Solutions*
+Made with ❤️ by *Avento Solutions*
 
